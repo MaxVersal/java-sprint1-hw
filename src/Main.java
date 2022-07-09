@@ -10,8 +10,7 @@ public class Main
         StepTracker stepTracker = new StepTracker();
         StepTracker.MonthData monthData = stepTracker.new MonthData();
         while (userInput != 0) {
-            if (userInput == 1)
-            {
+            if (userInput == 1) {
                 stepTracker.changeStepsInMonth(scanner);
             }
             if (userInput==2)
